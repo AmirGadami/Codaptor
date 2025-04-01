@@ -76,10 +76,9 @@ python app.py
 ```
 
 ---
+### 📸 Sample Output
 
-## 🧠 Example Use Case
-
-Paste your Python code on the left, choose your preferred model, and watch as it’s converted into efficient C++ on the right. You can run both versions in the UI and compare execution results and speed.
+![Sample Output](sample.png)
 
 ---
 
