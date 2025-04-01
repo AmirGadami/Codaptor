@@ -12,10 +12,10 @@
 - Seamless code transformation using:
   - GPT-4
   - Claude
-  - CodeQwen (via HuggingFace endpoints)
+
 
 ### ⚙️ Multi-Model Support
-- Switch between open-source and proprietary models with a simple dropdown
+- Switch between models with a simple dropdown
 - Streamed, real-time code generation
 
 ### 🧠 Performance-Oriented
