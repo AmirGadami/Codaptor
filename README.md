@@ -59,7 +59,7 @@ cd codaptor
 ### 2. Set Up the Environment
 ```bash
 conda env create -f environment.yml
-conda activate codaptor
+conda llms
 ```
 
 ### 3. Add API Keys
@@ -67,7 +67,6 @@ Create a `.env` file in the root directory:
 ```
 OPENAI_API_KEY=your_openai_key
 ANTHROPIC_API_KEY=your_anthropic_key
-HF_TOKEN=your_huggingface_key
 ```
 
 ### 4. Run the App
