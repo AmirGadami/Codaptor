@@ -29,7 +29,7 @@ textarea, input, select {
 def optimize(python,model):
     if model == 'GPT':
         result = stream_gpt(python)
-    elif model == "claude":
+    elif model == "Claude":
         result = stream_claude(python)
     else:
         raise ValueError("Unknown Model")
@@ -38,7 +38,7 @@ def optimize(python,model):
 
 with gr.Blocks(css = custom_css) as ui:
 
-    gr.Markdown('🌿 Codaptor')
+    gr.Markdown('## 🌿 Codaptor')
     with gr.Row():
         python = gr.Textbox(label = 'Python Code:', lines=10, value=pi)
         cpp = gr.Textbox('C++ Code', lines=10)
